@@ -11,18 +11,11 @@ public class Student {
 	@Autowired
 	private Certification certificate;
 	
-	@Autowired
 	public Student() {
 		this.studentId=2055;
 		this.name="Aditya";
 		this.gender="Male";
 	}
-	
-	public Student(int studentId, String name, String gender) {
-        this.studentId = studentId;
-        this.name = name;
-        this.gender = gender;
-    }
 	
 	public void display() {
 		System.out.println("following are the certification details:");
