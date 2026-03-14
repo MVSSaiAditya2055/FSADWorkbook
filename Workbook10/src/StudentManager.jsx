@@ -2,11 +2,11 @@ import { useState } from "react";
 
 function StudentManager() {
   const initialStudents = [
-    { id: "101", name: "Rahul", course: "CSE" },
-    { id: "102", name: "Priya", course: "ECE" },
-    { id: "103", name: "Arjun", course: "Mechanical" },
-    { id: "104", name: "Sneha", course: "Civil" },
-    { id: "105", name: "Vikram", course: "IT" }
+    { id: "101", name: "Rahul", course: "FSAD" },
+    { id: "102", name: "Priya", course: "FSAD" },
+    { id: "103", name: "Arjun", course: "DBMS" },
+    { id: "104", name: "Sneha", course: "CIS" },
+    { id: "105", name: "Vikram", course: "NLP" }
   ];
 
   const [students, setStudents] = useState(initialStudents);
